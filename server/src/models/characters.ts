@@ -16,8 +16,6 @@ export interface ICharacters{
   description: string
 }
 
-
-
 export const charactersRickMorty:CharactersDTO[] = [
   {
     id:1,

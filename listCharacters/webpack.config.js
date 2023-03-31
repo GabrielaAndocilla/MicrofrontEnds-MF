@@ -48,7 +48,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./CharacterGrid": "./src/modules/CharacterGrid.jsx",
+        "./CharacterGrid": "./src/modules/CharacterGrid/index.jsx",
       },
       shared: {
         ...deps,

@@ -10,7 +10,7 @@ export class CharactersController {
   constructor() {}
 
   @Get(':name')
-  async index(@Param('name')name:string,@Query('locale') locale?: number): Promise<ICharacters[]> {    
+  async index(@Param('name')name:string,@Query('locale') locale?: string): Promise<ICharacters[]> {    
     const lang = locale ?? 'en'
     const characters = this.characters[name].reduce((characters:ICharacters[], character:CharactersDTO):ICharacters[] => {
       characters.push({...character,description:character.description[lang]})
