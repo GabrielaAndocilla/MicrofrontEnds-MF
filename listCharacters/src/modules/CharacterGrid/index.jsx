@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import CharacterCard from "../components/characterCard";
-import GridWrapper from "../layouts/GridWrapper";
-import { getCharacters } from "../services/characters";
+import CharacterCard from "../../components/characterCard";
+import GridWrapper from "../../layouts/GridWrapper";
+import { getCharacters } from "../../services/characters";
 
 
 const CharacterGrid = ({name,locale}) => {
@@ -9,7 +9,6 @@ const CharacterGrid = ({name,locale}) => {
 
   useEffect(() => {
     getCharacters(name,locale).then(res => {
-      console.log(res);
       setCharacters(res)
     })
   },[name,locale])
