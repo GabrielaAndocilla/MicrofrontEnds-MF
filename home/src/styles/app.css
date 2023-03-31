@@ -1,0 +1,11 @@
+body{
+  margin:0
+}
+
+.main{
+  min-height: calc(100vh - 122px);
+}
+
+h1{
+  text-align: center;
+}
