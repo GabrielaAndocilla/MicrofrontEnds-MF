@@ -1,0 +1,12 @@
+{
+  "Welcome": {
+    "title": "Lista de Personajes Pincipales",
+    "errorDisplay": "Porfavor selecciona una categoría para desplegar"
+  },
+  "App":{
+    "Buttons":{
+      "english":"Ingles",
+      "spanish":"Español"
+    }
+  }
+}

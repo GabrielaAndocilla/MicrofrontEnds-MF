@@ -1,0 +1,12 @@
+{
+  "Welcome": {
+    "title": "List of Main Charactes",
+    "errorDisplay": " Please Select a TV Show or Movie to display"
+  },
+  "App":{
+    "Buttons":{
+      "english":"English",
+      "spanish":"Spanish"
+    }
+  }
+}
