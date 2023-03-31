@@ -23,8 +23,14 @@ The backend is a NestJS app that expose an api to get character depending on the
 
 
 # Running the app
+1. Git clone the project
+2. Create .env in the listCharacters folder with this content
+```
+API_SERVER_URL = "http://localhost:8080"
+```
+3. Run node setup.js
 
-With both setup options you should be able to visit [http://localhost:3000](http://localhost:3000) where you'll find the app running.
+With all this step the you can go to  [http://localhost:3000](http://localhost:3000) where you'll find the app running.
 
 # Why Module Federation
 
